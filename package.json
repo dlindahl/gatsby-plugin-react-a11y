@@ -1,0 +1,41 @@
+{
+  "name": "gatsby-plugin-react-a11y",
+  "description": "A Gatsby plugin for react-a11y",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dlindahl/gatsby-plugin-react-a11y.git"
+  },
+  "author": "Derek <derek.lindahl@gmail.com>",
+  "license": "MIT",
+  "keywords": ["gatsby", "react", "react-a11y"],
+  "bugs": {
+    "url":
+      "https://github.com/dlindahl/gatsby-plugin-react-a11y/issues?status=new&status=open"
+  },
+  "contributors": [
+    {
+      "name": "Derek Lindahl",
+      "email": "derek.lindahl@gmail.com"
+    }
+  ],
+  "scripts": {
+    "lint": "prettier-eslint --write \"src/**/*.js\" && eslint --fix ."
+  },
+  "dependencies": {
+    "eslint-plugin-promise": "^3.5.0",
+    "react-a11y": "^0.3.4"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.0.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-standard": "^3.0.1",
+    "prettier-eslint-cli": "^4.3.2"
+  },
+  "peerDependencies": {
+    "gatsby": "^1.9.42"
+  }
+}
