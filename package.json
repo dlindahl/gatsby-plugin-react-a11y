@@ -9,7 +9,7 @@
   },
   "author": "Derek <derek.lindahl@gmail.com>",
   "license": "MIT",
-  "keywords": ["gatsby", "react", "react-a11y"],
+  "keywords": ["gatsby", "gatsby-plugin", "react", "react-a11y"],
   "bugs": {
     "url":
       "https://github.com/dlindahl/gatsby-plugin-react-a11y/issues?status=new&status=open"
@@ -25,7 +25,9 @@
   },
   "dependencies": {
     "eslint-plugin-promise": "^3.5.0",
-    "react-a11y": "^0.3.4"
+    "react": "^16.0.0",
+    "react-a11y": "^0.3.4",
+    "react-dom": "^16.0.0"
   },
   "devDependencies": {
     "babel-eslint": "^8.0.0",
