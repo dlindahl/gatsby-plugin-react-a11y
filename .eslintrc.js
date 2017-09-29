@@ -1,6 +1,6 @@
 module.exports = {
   env: {
-    es6: true
+    es6: false
   },
   extends: [
     'eslint:recommended',
@@ -15,4 +15,4 @@ module.exports = {
   rules: {
     'no-unused-vars': ['error', { args: 'none', varsIgnorePattern: '_' }]
   }
-};
+}

@@ -20,6 +20,7 @@
       "email": "derek.lindahl@gmail.com"
     }
   ],
+  "files": ["index.js", "gatsby-browser.js"],
   "scripts": {
     "lint": "prettier-eslint --write \"src/**/*.js\" && eslint --fix ."
   },
