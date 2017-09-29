@@ -26,9 +26,7 @@
   },
   "dependencies": {
     "eslint-plugin-promise": "^3.5.0",
-    "react": "^16.0.0",
-    "react-a11y": "^0.3.4",
-    "react-dom": "^16.0.0"
+    "react-a11y": "^0.3.4"
   },
   "devDependencies": {
     "babel-eslint": "^8.0.0",
@@ -39,6 +37,8 @@
     "prettier-eslint-cli": "^4.3.2"
   },
   "peerDependencies": {
-    "gatsby": "^1.9.42"
+    "gatsby": "^1.9.42",
+    "react": "^15.6.0",
+    "react-dom": "^15.6.0"
   }
 }
